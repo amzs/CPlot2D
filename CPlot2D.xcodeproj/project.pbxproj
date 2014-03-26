@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9ACB0FAC18E34CAF0011F2AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ACB0FAB18E34CAF0011F2AE /* main.cpp */; };
 		9ACB0FAE18E34CAF0011F2AE /* CPlot2D.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9ACB0FAD18E34CAF0011F2AE /* CPlot2D.1 */; };
+		9ACB0FBA18E34CFB0011F2AE /* CPlot2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ACB0FB918E34CFB0011F2AE /* CPlot2D.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		9ACB0FA718E34CAF0011F2AE /* CPlot2D */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPlot2D; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACB0FAB18E34CAF0011F2AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9ACB0FAD18E34CAF0011F2AE /* CPlot2D.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CPlot2D.1; sourceTree = "<group>"; };
+		9ACB0FB818E34CFB0011F2AE /* CPlot2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPlot2D.h; sourceTree = "<group>"; };
+		9ACB0FB918E34CFB0011F2AE /* CPlot2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPlot2D.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 		9ACB0FAA18E34CAF0011F2AE /* CPlot2D */ = {
 			isa = PBXGroup;
 			children = (
+				9ACB0FB818E34CFB0011F2AE /* CPlot2D.h */,
+				9ACB0FB918E34CFB0011F2AE /* CPlot2D.cpp */,
 				9ACB0FAB18E34CAF0011F2AE /* main.cpp */,
 				9ACB0FAD18E34CAF0011F2AE /* CPlot2D.1 */,
 			);
@@ -118,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ACB0FAC18E34CAF0011F2AE /* main.cpp in Sources */,
+				9ACB0FBA18E34CFB0011F2AE /* CPlot2D.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
