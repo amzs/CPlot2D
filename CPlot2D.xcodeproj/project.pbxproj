@@ -26,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9A9D99F118E355E1000A7957 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 		9ACB0FA718E34CAF0011F2AE /* CPlot2D */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPlot2D; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACB0FAB18E34CAF0011F2AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9ACB0FAD18E34CAF0011F2AE /* CPlot2D.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CPlot2D.1; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 				9ACB0FB918E34CFB0011F2AE /* CPlot2D.cpp */,
 				9ACB0FAB18E34CAF0011F2AE /* main.cpp */,
 				9ACB0FAD18E34CAF0011F2AE /* CPlot2D.1 */,
+				9A9D99F118E355E1000A7957 /* readme.txt */,
 			);
 			path = CPlot2D;
 			sourceTree = "<group>";
@@ -214,6 +216,7 @@
 				9ACB0FB318E34CAF0011F2AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

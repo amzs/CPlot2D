@@ -1,0 +1,106 @@
+\hypertarget{class_c_data_point}{\section{C\-Data\-Point Class Reference}
+\label{class_c_data_point}\index{C\-Data\-Point@{C\-Data\-Point}}
+}
+
+
+{\ttfamily \#include $<$C\-Plot2\-D.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_data_point_aff1e3e57703db79d1052c38063689790}{C\-Data\-Point} ()
+\item 
+\hyperlink{class_c_data_point_ab520e4ab994b143e445ee3803908ac17}{$\sim$\-C\-Data\-Point} ()
+\item 
+\hyperlink{class_c_data_point_ac9e0c9b27b4e1aefe5138eb03f2f8bf8}{C\-Data\-Point} (double x, double y)
+\item 
+void \hyperlink{class_c_data_point_a4a671e7d5e26ce8819be70af6e5f264c}{Set\-Values} (double x, double y)
+\item 
+void \hyperlink{class_c_data_point_a1d4c789a856bf36decb8bd762ddc05ad}{Get\-Values} (double $\ast$x, double $\ast$y)
+\item 
+double \hyperlink{class_c_data_point_a6800ff14238e9e98e667493e4375fffe}{Get\-X} ()
+\item 
+double \hyperlink{class_c_data_point_a2182d6d3f75387a391653c4bfa6fa548}{Get\-Y} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{class_c_data_point_af3fc9273d4004fb92574da20b1579049}{m\-\_\-d\-Data\-X}
+\item 
+double \hyperlink{class_c_data_point_adfb8d913ab8045ad78b85a6cf0edb48c}{m\-\_\-d\-Data\-Y}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A simple container class to hold a data point, comprised of an x and y value stored in a double. Simple accessors are implemented to set and get the data stored. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_data_point_aff1e3e57703db79d1052c38063689790}{\index{C\-Data\-Point@{C\-Data\-Point}!C\-Data\-Point@{C\-Data\-Point}}
+\index{C\-Data\-Point@{C\-Data\-Point}!CDataPoint@{C\-Data\-Point}}
+\subsubsection[{C\-Data\-Point}]{\setlength{\rightskip}{0pt plus 5cm}C\-Data\-Point\-::\-C\-Data\-Point (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_data_point_aff1e3e57703db79d1052c38063689790}
+Constructor for the class. The x and y values are initialized to zero. \hypertarget{class_c_data_point_ab520e4ab994b143e445ee3803908ac17}{\index{C\-Data\-Point@{C\-Data\-Point}!$\sim$\-C\-Data\-Point@{$\sim$\-C\-Data\-Point}}
+\index{$\sim$\-C\-Data\-Point@{$\sim$\-C\-Data\-Point}!CDataPoint@{C\-Data\-Point}}
+\subsubsection[{$\sim$\-C\-Data\-Point}]{\setlength{\rightskip}{0pt plus 5cm}C\-Data\-Point\-::$\sim$\-C\-Data\-Point (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_data_point_ab520e4ab994b143e445ee3803908ac17}
+Nothing really to destruct... \hypertarget{class_c_data_point_ac9e0c9b27b4e1aefe5138eb03f2f8bf8}{\index{C\-Data\-Point@{C\-Data\-Point}!C\-Data\-Point@{C\-Data\-Point}}
+\index{C\-Data\-Point@{C\-Data\-Point}!CDataPoint@{C\-Data\-Point}}
+\subsubsection[{C\-Data\-Point}]{\setlength{\rightskip}{0pt plus 5cm}C\-Data\-Point\-::\-C\-Data\-Point (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_data_point_ac9e0c9b27b4e1aefe5138eb03f2f8bf8}
+Constructor for the class with initialization of x and y. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_data_point_a1d4c789a856bf36decb8bd762ddc05ad}{\index{C\-Data\-Point@{C\-Data\-Point}!Get\-Values@{Get\-Values}}
+\index{Get\-Values@{Get\-Values}!CDataPoint@{C\-Data\-Point}}
+\subsubsection[{Get\-Values}]{\setlength{\rightskip}{0pt plus 5cm}void C\-Data\-Point\-::\-Get\-Values (
+\begin{DoxyParamCaption}
+\item[{double $\ast$}]{x, }
+\item[{double $\ast$}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_data_point_a1d4c789a856bf36decb8bd762ddc05ad}
+Get the x and y values as a pair. \hypertarget{class_c_data_point_a6800ff14238e9e98e667493e4375fffe}{\index{C\-Data\-Point@{C\-Data\-Point}!Get\-X@{Get\-X}}
+\index{Get\-X@{Get\-X}!CDataPoint@{C\-Data\-Point}}
+\subsubsection[{Get\-X}]{\setlength{\rightskip}{0pt plus 5cm}double C\-Data\-Point\-::\-Get\-X (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_data_point_a6800ff14238e9e98e667493e4375fffe}
+Get the x value individually. \hypertarget{class_c_data_point_a2182d6d3f75387a391653c4bfa6fa548}{\index{C\-Data\-Point@{C\-Data\-Point}!Get\-Y@{Get\-Y}}
+\index{Get\-Y@{Get\-Y}!CDataPoint@{C\-Data\-Point}}
+\subsubsection[{Get\-Y}]{\setlength{\rightskip}{0pt plus 5cm}double C\-Data\-Point\-::\-Get\-Y (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_data_point_a2182d6d3f75387a391653c4bfa6fa548}
+Get the y value individually. \hypertarget{class_c_data_point_a4a671e7d5e26ce8819be70af6e5f264c}{\index{C\-Data\-Point@{C\-Data\-Point}!Set\-Values@{Set\-Values}}
+\index{Set\-Values@{Set\-Values}!CDataPoint@{C\-Data\-Point}}
+\subsubsection[{Set\-Values}]{\setlength{\rightskip}{0pt plus 5cm}void C\-Data\-Point\-::\-Set\-Values (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_data_point_a4a671e7d5e26ce8819be70af6e5f264c}
+Another way to set the x and y values. 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_c_data_point_af3fc9273d4004fb92574da20b1579049}{\index{C\-Data\-Point@{C\-Data\-Point}!m\-\_\-d\-Data\-X@{m\-\_\-d\-Data\-X}}
+\index{m\-\_\-d\-Data\-X@{m\-\_\-d\-Data\-X}!CDataPoint@{C\-Data\-Point}}
+\subsubsection[{m\-\_\-d\-Data\-X}]{\setlength{\rightskip}{0pt plus 5cm}double C\-Data\-Point\-::m\-\_\-d\-Data\-X\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_data_point_af3fc9273d4004fb92574da20b1579049}
+Storage for the x value of a data point. \hypertarget{class_c_data_point_adfb8d913ab8045ad78b85a6cf0edb48c}{\index{C\-Data\-Point@{C\-Data\-Point}!m\-\_\-d\-Data\-Y@{m\-\_\-d\-Data\-Y}}
+\index{m\-\_\-d\-Data\-Y@{m\-\_\-d\-Data\-Y}!CDataPoint@{C\-Data\-Point}}
+\subsubsection[{m\-\_\-d\-Data\-Y}]{\setlength{\rightskip}{0pt plus 5cm}double C\-Data\-Point\-::m\-\_\-d\-Data\-Y\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_data_point_adfb8d913ab8045ad78b85a6cf0edb48c}
+Storage for the y value of a data point. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/\-Users/attila/develop/cplot2ddriver/cplot2ddriver/C\-Plot2\-D.\-h\end{DoxyCompactItemize}
